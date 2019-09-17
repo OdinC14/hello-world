@@ -20,7 +20,7 @@ triangle(mouseX,mouseY,mouseX-15,mouseY+30,mouseX+15,mouseY+30);
 int row = 450;
 int col = 100;
 for (int i = 0;i < row;i+=50) {   //should spawn more
-  for (int j = 0; j<col ;j+=50){  //should spawn more/ overall 10x10 group
+  for (int j = 0; j<col ;j+=50){  //should spawn more
     ellipse(x+i, y+j, 40, 40); 
   }
 } 
